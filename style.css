@@ -105,7 +105,7 @@ body{
     color: white;
 }
 
-.line1 {
+.deco01 {
     display: flex;
     width: 500px;
     margin: auto;
@@ -113,12 +113,12 @@ body{
     margin-bottom: 30px;
 }
 
-.about_line {
+.line01 {
     border-top: 3px dotted;
     width: 80px;
 }
 
-.about_arrow {
+.arrow01 {
     height: 20px;
     width: 20px;
     border-top: solid;
