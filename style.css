@@ -1,5 +1,5 @@
 /*
-* ç”»é¢ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ
+* ÃƒÂ§Ã¢â‚¬ÂÃ‚Â»ÃƒÂ©Ã‚ÂÃ‚Â¢ÃƒÂ£Ã‚ÂÃ‚Â®ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¿ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¤ÃƒÂ£Ã†â€™Ã‚Â«ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â·ÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã†â€™Ã‹â€ 
 */
 
 
@@ -10,7 +10,7 @@ body{
 }
 
 /*
-* headerã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ
+* headerÃƒÂ£Ã‚ÂÃ‚Â®ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¿ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¤ÃƒÂ£Ã†â€™Ã‚Â«ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â·ÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã†â€™Ã‹â€ 
 */
 
 .block_header {
@@ -94,7 +94,7 @@ body{
 }
 
 /*
-* aboutã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ
+* aboutÃƒÂ£Ã‚ÂÃ‚Â®ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¿ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¤ÃƒÂ£Ã†â€™Ã‚Â«ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â·ÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã†â€™Ã‹â€ 
 */
 
 .about {
@@ -114,7 +114,7 @@ body{
 }
 
 .line01 {
-    border-top: 3px dotted;
+    border-top: 4px dotted;
     width: 80px;
 }
 
@@ -172,4 +172,266 @@ body{
     width: 30px;
     background-color: white;
     border-radius: 20%;
+}
+
+
+/*
+* projectsÃ£ÂÂ®Ã£â€šÂ¹Ã£â€šÂ¿Ã£â€šÂ¤Ã£Æ’Â«Ã£â€šÂ·Ã£Æ’Â¼Ã£Æ’Ë†
+*/
+
+.project_heading {
+    width: 400px;
+    margin: auto;
+    padding: 70px 0 70px;
+    text-align: center;
+}
+.project_heading h1 {
+    letter-spacing: 4px;
+    color: rgb(238, 79, 79);
+    font-weight: 100;
+    margin: 7px;
+}
+
+.deco02 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.line02 {
+    border-top: 4px dotted;
+    width: 50px;
+    border-color: gray;
+}
+
+.arrow02 {
+    height: 20px;
+    width: 20px;
+    border-top: solid;
+    border-right: solid;
+    transform: rotate(135deg);
+    margin: 0 15px;
+    color: grey;
+}
+
+.projects_list {
+    display: flex;
+    width: 90%;
+    margin:auto;
+    padding: 0;
+}
+
+
+
+.product {
+    list-style: none;
+    width: 42%;
+}
+
+.product:last-child {
+    margin-left: auto;
+}
+
+.img_case {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+border: 1px solid rgb(238, 79, 79);
+
+width: 100%;
+
+height: 400px;
+}
+
+.img_case img {
+  
+
+    width: 80%;
+    height: 80%;
+}
+
+.description {
+
+text-align: center;
+
+letter-spacing: 2px;
+
+margin-bottom: 18px;
+}
+
+.description h1 {
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.description p {
+    margin: 0 auto;
+    font-size: 16px;
+}
+.project_line {
+
+border-top: 2px solid;
+border-color: gray;
+width: 70px;
+padding: 10px 0;
+margin: auto;
+}
+
+.test_account {letter-spacing: 1px;text-align: center;font-size: 11px;}
+
+.test_account p {
+  
+margin: 0 0 5px;
+}
+
+.test_account p span {
+    
+margin: 2px;
+}
+
+.projects_link {
+
+text-align: center;
+
+letter-spacing: 1px;
+
+margin-top: 20px;
+}
+
+.projects_link a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(238, 79, 79);
+    padding: 7px 12px;
+    font-size: 12px;
+    margin-right: 14px;
+    box-shadow: 0px 0px 3px 0px rgb(238 79 79);
+}
+
+/*
+*   contactmeã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ
+*/
+
+.contact_heading {
+
+width: 400px;
+
+margin: auto;
+
+text-align: center;
+}
+
+.contact_heading h2 {
+
+font-weight: 100;
+
+letter-spacing: 3px;
+}
+
+.contact_heading h2 span {
+    margin: 0 10px;
+    color:rgb(238, 79, 79);
+}
+
+.deco03 {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+}
+
+.line03 {
+    border-top: 4px dotted;
+    width: 80px;
+}
+
+.arrow03 {
+    height: 20px;
+    width: 20px;
+    border-top: solid;
+    border-right: solid;
+    transform: rotate(135deg);
+    margin: 0 15px;
+    color: grey;
+}
+
+.contact_list {
+
+display: flex;
+
+width: 80%;
+
+margin: 60px auto;
+}
+
+.method {
+    background-color: rgb(233, 232, 232);
+    width: 40%;
+    height: 213px;
+    text-align: center;
+    border-bottom: 4px solid rgb(238, 79, 79);
+}
+
+.method:last-child {
+    margin-left: auto;
+}
+
+.method img {
+
+width: 40px;
+
+margin: 30px auto 0;
+}
+
+.method p {
+
+letter-spacing: 2px;
+}
+
+.red {color: rgb(238, 79, 79);}
+
+.contact_line01 {
+
+border-top: 3px solid grey;
+
+width: 100px;
+
+margin: auto;
+}
+
+.contact_no {
+    
+margin: 22px auto 3px;
+}
+
+.contact_line02 {
+    border-top: 4px dotted;
+    width: 233px;
+    margin: auto;
+}
+
+footer {
+
+width: 100%;
+
+background-color: #f2f2ff;
+
+height: 80px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+
+footer p {
+    
+font-size: 5px;
+    
 }
